@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    color: #eadfcb;
+}
+
+html, body {
+    background: #0c1019;
+    padding-right: 1.5em;
+}
+
+#logo {
+    background-image: url("img/bg.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-top: 3em;
+    width: 100%;
+}
+
+#logo img {
+    float: right;
+}
+
+#logo, #logo img {
+    height: 72px;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 3em;
+}
+
+li {
+    margin-bottom: 1.5em;
+}
+
+i {
+    margin-right: 16px;
+    width: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+    #logo, #logo img {
+        height: 5vh;
+    }
+}
+
+@media all and (min-width:321px) and (max-width: 460px) {
+    #logo, #logo img {
+        height: 6vh;
+    }
+}
